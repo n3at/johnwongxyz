@@ -1,0 +1,170 @@
+a .logoText {
+  font-size: 32px;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 0.01em;
+  color: black !important;
+  display: inline-block;
+  text-align: center;
+  padding-top: 90px;
+  z-index: 1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a .logoCircle {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 1em;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 0.01em;
+  color: white !important;
+  /* blue - background: #0072BB; */
+  background-color: #0072BB;
+  /* Photo from - https://stocksnap.io/photo/K4BK9Q3KL2
+  Then compressed via tinypng.com */
+  background-image: url("K4BK9Q3KL2-c.jpg");
+  background-size: 500px 100%;
+  background-position: right bottom;
+  display: inline-block;
+  width: 210px;
+  height: 210px;
+  text-align: center;
+  padding-top: 90px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a .logoLeft {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 1em;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 0.01em;
+  color: white !important;
+  /* blue - background: #0072BB; */
+  background-color: #0072BB;
+  /* Photo from - https://stocksnap.io/photo/K4BK9Q3KL2
+  Then compressed via tinypng.com */
+  /* background-image: url("K4BK9Q3KL2-c.jpg"); */
+  background-size: 500px 100%;
+  background-position: right bottom;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  left: 10px;
+  padding-top: 65px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a .logoRight {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 1em;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 0.01em;
+  color: white !important;
+  /* blue - background: #0072BB; */
+  background-color: black;
+  position: relative;
+  z-index: 1;
+  left: -10px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding-top: 65px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+div.smallCircle {
+  font-size: 18px;
+  position: relative;
+  z-index: 3;
+}
+
+div.smallClassic {
+  font-size: 18px;
+  position: relative;
+  z-index: 3;
+  font-size: 4vh;
+}
+
+div.normalClassic {
+  bottom: -20px;
+  position: relative;
+  z-index: 1;
+  font-size: 7vh;
+}
+
+div.lineClassic {
+  letter-spacing: -6px;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  bottom: -7px;
+  font-size: 4vh;
+}
+
+div.mainContainer {
+  top:50%;
+  left:50%;
+  text-align: center;
+}
+
+span.shadow {
+  display: inline-block;
+  vertical-align: middle;
+
+  text-shadow:
+  -0.5px -0.5px 0 #000,
+  0.5px -0.5px 0 #000,
+  -0.5px 0.5px 0 #000,
+  0.5px 0.5px 0 #000;
+
+  line-height: normal;
+}
+.google-indieflower {
+  font: 400 15px 'Indie Flower', Helvetica, sans-serif;
+  font-size: 3vh;
+}
+.google-vollkorn {
+  font: 400 15px 'Vollkorn', serif;
+  font-variant: small-caps;
+}
+.blue {
+  color: #0072BB;
+}
