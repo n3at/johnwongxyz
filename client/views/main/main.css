@@ -41,7 +41,26 @@ a .logoCircle {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+a .logoCircleEmpty {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 17vmin;
+  line-height: 1em;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: 0.01em;
+  color: white !important;
+  /* blue - background: #0072BB;
+  background-color: #0072BB;*/
+  /* Photo from - https://stocksnap.io/photo/K4BK9Q3KL2
+  Then compressed via tinypng.com */
+  background-size: 500px 100%;
+  background-position: right bottom;
+  display: inline-block;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 a .logoLeft {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 32px;
@@ -120,14 +139,18 @@ div.smallClassic {
   font-size: 18px;
   position: relative;
   z-index: 3;
-  font-size: 4vh;
+  font-size: 4vmin;
+  color: #0072BB;
+  text-shadow: 0 0 13px white;
 }
 
 div.normalClassic {
   bottom: -20px;
   position: relative;
   z-index: 1;
-  font-size: 7vh;
+  font-size: 7vmin;
+  color: #0072BB;
+  text-shadow: 0 0 13px white;
 }
 
 div.lineClassic {
@@ -136,7 +159,9 @@ div.lineClassic {
   position: relative;
   z-index: 2;
   bottom: -7px;
-  font-size: 4vh;
+  font-size: 4vmin;
+  color: #0072BB;
+  text-shadow: 0 0 13px white;
 }
 
 div.mainContainer {
@@ -159,7 +184,7 @@ span.shadow {
 }
 .google-indieflower {
   font: 400 15px 'Indie Flower', Helvetica, sans-serif;
-  font-size: 3vh;
+  font-size: 3vmin;
 }
 .google-vollkorn {
   font: 400 15px 'Vollkorn', serif;
@@ -167,4 +192,15 @@ span.shadow {
 }
 .blue {
   color: #0072BB;
+}
+#firstPage {
+  background-image: url(secondPageBG.jpeg);
+  padding: 0 0 0 0;
+}
+#vectorPage {
+  background-image: url(firstPageBG.svg);
+  padding: 0 0 0 0;
+}
+.section{
+  background-size: cover;
 }
